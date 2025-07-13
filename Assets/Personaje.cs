@@ -30,4 +30,9 @@ public class Personaje : MonoBehaviour
         int bonus = agilidad > 5 ? 2 : 0;
         return fuerza + bonus;
     }
+
+    public void Atacar(string objetivo)
+    {
+        Debug.Log($"{Nombre} ataca a {objetivo} con fuerza {Fuerza}.");
+    }
 }
