@@ -33,6 +33,6 @@ public class Personaje : MonoBehaviour
 
     public void Atacar(string objetivo)
     {
-        Debug.Log($"{Nombre} ataca a {objetivo} con fuerza {Fuerza}.");
+        Debug.Log($"{Nombre} ataca a {objetivo} con fuerza {Fuerza}");
     }
 }
