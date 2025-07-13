@@ -18,11 +18,11 @@ public class Personaje : MonoBehaviour
     public int Agilidad { get => agilidad; set => agilidad = value; }
 
     // Abstraccion: metodo de alto nivel que oculta los detalles internos
-    
+
     public virtual void Atacar()
     {
         int daño = CalcularDaño();
-        Debug.Log($"{Nombre} ataca e inflige {daño} de daño.");
+        Debug.Log($"{Nombre} ataca e inflige {daño} de daño");
     }
 
     protected int CalcularDaño()
